@@ -1,0 +1,100 @@
+import { TikTokMetadata } from "./types";
+
+export const SAMPLE_TIKTOKS: TikTokMetadata[] = [
+  {
+    id: "tt-7329482104",
+    url: "https://www.tiktok.com/@dancecreators/video/7329482104",
+    caption: "Synchronized shuffle choreography on Venice Beach boardwalk 🌴🕺 Who nailed the spin at the end?! #dance #shuffle #viral",
+    authorUsername: "dancecreators",
+    authorNickname: "Venice Shuffle Crew",
+    authorAvatar: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=150&q=80",
+    isVerified: true,
+    duration: "0:24",
+    playCount: "14.2M",
+    likesCount: "2.4M",
+    sharesCount: "148.5K",
+    musicTitle: "Electropop Shuffle Anthem",
+    musicAuthor: "Venice Sound Lab",
+    thumbnail: "https://images.unsplash.com/photo-1547153760-18fc86324498?auto=format&fit=crop&w=1080&q=80",
+    videoFormats: [
+      {
+        quality: "HD No Watermark",
+        resolution: "1080×1920",
+        fps: 60,
+        extension: "mp4",
+        fileSize: "16.8 MB",
+        bitrate: "4,100 kbps",
+        isRecommended: true,
+      },
+      {
+        quality: "Original (With Watermark)",
+        resolution: "1080×1920",
+        fps: 60,
+        extension: "mp4",
+        fileSize: "17.4 MB",
+        bitrate: "4,100 kbps",
+      },
+    ],
+    audioFormats: [
+      {
+        quality: "TikTok Viral Sound (320 kbps)",
+        extension: "mp3",
+        fileSize: "1.1 MB",
+        bitrate: "320 kbps",
+        sampleRate: "48.0 kHz",
+      },
+    ],
+    coverFormats: [
+      {
+        quality: "Cover Poster",
+        dimensions: "1080×1920",
+        url: "https://images.unsplash.com/photo-1547153760-18fc86324498?auto=format&fit=crop&w=1080&q=80",
+        fileSize: "320 KB",
+      },
+    ],
+  },
+  {
+    id: "tt-7389102931",
+    url: "https://www.tiktok.com/@lifehackgenius/video/7389102931",
+    caption: "The secret air-fryer cleaning technique that takes only 30 seconds! 🧼🤯 No scrubbing needed.",
+    authorUsername: "lifehackgenius",
+    authorNickname: "Daily Life Hacks",
+    authorAvatar: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=150&q=80",
+    isVerified: true,
+    duration: "0:36",
+    playCount: "8.9M",
+    likesCount: "1.1M",
+    sharesCount: "320.1K",
+    musicTitle: "Upbeat Kitchen Acoustic",
+    musicAuthor: "SoundCraft",
+    thumbnail: "https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto=format&fit=crop&w=1080&q=80",
+    videoFormats: [
+      {
+        quality: "HD No Watermark",
+        resolution: "1080×1920",
+        fps: 60,
+        extension: "mp4",
+        fileSize: "22.1 MB",
+        bitrate: "4,400 kbps",
+        isRecommended: true,
+      },
+    ],
+    audioFormats: [
+      {
+        quality: "TikTok Viral Sound (320 kbps)",
+        extension: "mp3",
+        fileSize: "1.5 MB",
+        bitrate: "320 kbps",
+        sampleRate: "48.0 kHz",
+      },
+    ],
+    coverFormats: [
+      {
+        quality: "Cover Poster",
+        dimensions: "1080×1920",
+        url: "https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto=format&fit=crop&w=1080&q=80",
+        fileSize: "290 KB",
+      },
+    ],
+  },
+];

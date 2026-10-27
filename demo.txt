@@ -1,0 +1,436 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta content="width=device-width, initial-scale=1.0" name="viewport"><meta content="web_dashboard" name="shell-type"><link href="https://fonts.googleapis.com" rel="preconnect"><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"><link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet"><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"><style>@layer base { html, body { margin: 0; padding: 0; } body { overscroll-behavior: none; } main > :first-child { margin-top: 0 !important; } main > :last-child { margin-bottom: 0 !important; } } ::-webkit-scrollbar { display: none; }</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { "colors": { "inverse-on-surface": "#f8efed", "on-secondary": "#ffffff", "outline": "#6e7881", "inverse-primary": "#89ceff", "surface-container-highest": "#e9e1df", "primary-fixed-dim": "#89ceff", "surface-container-high": "#efe6e4", "secondary-fixed-dim": "#ffb690", "surface-tint": "#006591", "background": "#fff8f6", "on-surface-variant": "#3e4850", "on-secondary-fixed": "#341100", "tertiary": "#695f02", "on-tertiary": "#ffffff", "on-surface": "#1e1b1a", "secondary-container": "#fd761a", "on-secondary-fixed-variant": "#783200", "surface-dim": "#e1d8d6", "on-error": "#ffffff", "on-primary-fixed": "#001e2f", "error": "#ba1a1a", "on-tertiary-fixed-variant": "#4f4800", "primary-container": "#0ea5e9", "primary-fixed": "#c9e6ff", "tertiary-container": "#b9ad4f", "surface-variant": "#e9e1df", "on-primary-fixed-variant": "#004c6e", "on-tertiary-fixed": "#201c00", "on-primary-container": "#003751", "on-tertiary-container": "#474000", "outline-variant": "#bec8d2", "tertiary-fixed": "#f2e580", "error-container": "#ffdad6", "surface": "#fff8f6", "secondary": "#9d4300", "on-primary": "#ffffff", "on-secondary-container": "#5c2400", "surface-container": "#f5ecea", "primary": "#006591", "inverse-surface": "#342f2e", "on-error-container": "#93000a", "secondary-fixed": "#ffdbca", "on-background": "#1e1b1a", "surface-bright": "#fff8f6", "surface-container-lowest": "#ffffff", "surface-container-low": "#fbf2f0", "tertiary-fixed-dim": "#d5c867" }, "borderRadius": { "DEFAULT": "1rem", "lg": "2rem", "xl": "3rem", "full": "9999px" }, "spacing": { "space-lg": "1.5rem", "gutter-mobile": "1rem", "gutter": "1.5rem", "margin-mobile": "1.25rem", "space-sm": "0.5rem", "space-md": "1rem", "space-xl": "2.5rem", "space-xs": "0.25rem", "margin": "2.5rem" }, "fontFamily": { "display-lg": [ "Plus Jakarta Sans" ], "display-lg-mobile": [ "Plus Jakarta Sans" ], "body-sm": [ "Plus Jakarta Sans" ], "body-lg": [ "Plus Jakarta Sans" ], "headline-xl-mobile": [ "Plus Jakarta Sans" ], "label-sm": [ "Plus Jakarta Sans" ], "headline-lg": [ "Plus Jakarta Sans" ], "body-md": [ "Plus Jakarta Sans" ], "headline-xl": [ "Plus Jakarta Sans" ], "label-lg": [ "Plus Jakarta Sans" ], "label-md": [ "Plus Jakarta Sans" ], "headline-sm": [ "Plus Jakarta Sans" ] }, "fontSize": { "display-lg": [ "56px", { "lineHeight": "64px", "letterSpacing": "-0.03em", "fontWeight": "800" } ], "display-lg-mobile": [ "36px", { "lineHeight": "42px", "letterSpacing": "-0.025em", "fontWeight": "800" } ], "body-sm": [ "13px", { "lineHeight": "20px", "fontWeight": "400" } ], "body-lg": [ "18px", { "lineHeight": "28px", "fontWeight": "400" } ], "headline-xl-mobile": [ "28px", { "lineHeight": "34px", "letterSpacing": "-0.02em", "fontWeight": "700" } ], "label-sm": [ "11px", { "lineHeight": "16px", "letterSpacing": "0.04em", "fontWeight": "700" } ], "headline-lg": [ "28px", { "lineHeight": "36px", "letterSpacing": "-0.02em", "fontWeight": "700" } ], "body-md": [ "15px", { "lineHeight": "24px", "fontWeight": "400" } ], "headline-xl": [ "40px", { "lineHeight": "48px", "letterSpacing": "-0.025em", "fontWeight": "700" } ], "label-lg": [ "15px", { "lineHeight": "20px", "letterSpacing": "0.01em", "fontWeight": "600" } ], "label-md": [ "13px", { "lineHeight": "18px", "letterSpacing": "0.02em", "fontWeight": "600" } ], "headline-sm": [ "20px", { "lineHeight": "28px", "letterSpacing": "-0.015em", "fontWeight": "600" } ] } } } };</script></head><body class="bg-surface font-body-md text-on-surface antialiased selection:bg-primary-fixed selection:text-on-primary-fixed"><aside class="fixed left-0 top-0 bottom-0 w-72 bg-surface-container-low z-40 flex flex-col justify-between p-space-md shadow-[0_1px_8px_rgba(0,0,0,0.04)] overflow-y-auto"><div class="flex flex-col gap-space-md"><div class="h-12 flex items-center px-space-sm"><div class="flex items-center gap-space-xs"><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center text-on-primary shadow-[0_4px_10px_rgba(0,101,145,0.25)]"><span class="material-symbols-outlined text-[18px]">layers</span></div><span class="font-headline-sm text-headline-sm font-bold text-primary tracking-tight">FileLab</span><span class="text-[10px] uppercase font-bold tracking-wider px-space-xs py-0.5 rounded-full bg-primary-fixed text-on-primary-fixed ml-1">Studio</span></div></div><div class="px-space-sm"><span class="text-label-sm font-label-sm text-on-surface-variant uppercase tracking-wider">Core Workspaces</span></div><nav class="flex flex-col gap-1" data-active-classes="bg-primary-container text-on-primary-container font-semibold shadow-[0_4px_12px_rgba(14,165,233,0.25)]"><a class="px-space-md py-space-sm rounded-DEFAULT text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-all text-label-lg font-label-lg" data-path="pdf-merge" href="#">PDF Merge</a><a class="px-space-md py-space-sm rounded-DEFAULT text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-all text-label-lg font-label-lg" data-path="pdf-to-word-converter" href="#">PDF to Word</a><a class="px-space-md py-space-sm rounded-DEFAULT text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-all text-label-lg font-label-lg" data-path="pdf-to-jpg" href="#">PDF to JPG</a><a class="px-space-md py-space-sm rounded-DEFAULT text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-all text-label-lg font-label-lg" data-path="remove-background" href="#">Remove Background</a><a class="px-space-md py-space-sm rounded-DEFAULT text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-all text-label-lg font-label-lg" data-path="youtube-downloader" href="#">YouTube Downloader</a></nav><div class="px-space-sm pt-space-xs"><span class="text-label-sm font-label-sm text-on-surface-variant uppercase tracking-wider">Security &amp; Document Desk</span></div><nav class="flex flex-col gap-1" data-active-classes="bg-primary-container text-on-primary-container font-semibold shadow-[0_4px_12px_rgba(14,165,233,0.25)]"><a class="px-space-md py-space-sm rounded-DEFAULT text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-all text-label-lg font-label-lg" data-path="sign-pdf" href="#">Sign PDF</a><a aria-current="page" class="px-space-md py-space-sm rounded-DEFAULT transition-all font-semibold flex items-center justify-between text-white" data-path="watermark-pdf" href="#" style="background-color: rgb(2, 59, 44); box-shadow: rgba(2, 59, 44, 0.35) 0px 4px 12px;"><span class="flex items-center gap-2"><span class="">Watermark PDF</span></span><span class="material-symbols-outlined text-[18px] text-white/80">chevron_right</span></a><a class="px-space-md py-space-sm rounded-DEFAULT text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-all text-label-lg font-label-lg" data-path="protect-and-unlock-pdf" href="#">Protect &amp; Unlock</a><a class="px-space-md py-space-sm rounded-DEFAULT text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-all text-label-lg font-label-lg" data-path="redact-pdf" href="#">Redact PDF</a></nav></div><div class="flex flex-col gap-space-sm mt-space-md"></div></aside><div class="pl-72 flex flex-col min-h-screen"><header class="fixed top-0 left-72 right-0 h-16 bg-surface/85 backdrop-blur-xl z-30 shadow-[0_1px_8px_rgba(0,0,0,0.04)] flex items-center justify-between px-space-lg"><div class="flex items-center gap-space-lg"><div class="hidden xl:flex items-center gap-space-xs text-on-surface-variant"><span class="font-label-lg text-primary font-bold tracking-tight">FileLab</span><span class="text-[8px] text-outline">•</span><span class="text-label-sm font-label-sm uppercase tracking-wider">CONVERT</span><span class="text-[8px] text-outline">•</span><span class="text-label-sm font-label-sm uppercase tracking-wider">MERGE</span><span class="text-[8px] text-outline">•</span><span class="text-label-sm font-label-sm uppercase tracking-wider">SECURE</span></div><div class="relative flex items-center"><span class="material-symbols-outlined absolute left-3 text-on-surface-variant text-[20px]">search</span><input class="w-72 lg:w-96 pl-10 pr-16 py-space-xs rounded-full bg-surface-container-low text-on-surface placeholder:text-on-surface-variant text-body-sm font-body-sm focus:outline-none focus:ring-2 focus:ring-primary/40 shadow-inner" placeholder="Search conversion tools or formats..." type="text"><div class="absolute right-2 px-space-xs py-0.5 rounded-full bg-surface-container-high text-on-surface-variant text-label-sm font-label-sm uppercase tracking-wider">Ctrl K</div></div></div><div class="flex items-center gap-space-sm"><nav class="hidden md:flex items-center gap-space-xs bg-surface-container-low p-1 rounded-full shadow-[inset_0_1px_3px_rgba(41,37,36,0.06)]" data-active-classes="bg-surface-container-highest text-on-surface font-semibold"><a class="px-space-md py-space-xs rounded-full text-label-md font-label-md text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-all" data-path="pdf-merge" href="#">Merge</a><a class="px-space-md py-space-xs rounded-full text-label-md font-label-md text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-all" data-path="sign-pdf" href="#">Sign</a><a aria-current="page" class="px-space-md py-space-xs rounded-full transition-all bg-surface-container-highest text-on-surface font-semibold" data-path="watermark-pdf" href="#" style="background-color: rgb(2, 59, 44); color: rgb(255, 255, 255); box-shadow: rgba(2, 59, 44, 0.25) 0px 2px 6px;">Watermark</a><a class="px-space-md py-space-xs rounded-full text-label-md font-label-md text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-all" data-path="protect-and-unlock-pdf" href="#">Protect</a><a class="px-space-md py-space-xs rounded-full text-label-md font-label-md text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-all" data-path="redact-pdf" href="#">Redact</a></nav><div class="flex items-center gap-space-xs border-l border-outline-variant/30 pl-space-sm"><button class="h-9 px-space-md rounded-full bg-surface-container-low text-on-surface hover:bg-surface-container-high transition-all flex items-center gap-space-xs text-label-md font-label-md shadow-[0_2px_6px_rgba(41,37,36,0.06)]" title="Quick Tools Clipboard"><span class="material-symbols-outlined text-[18px] text-secondary">content_paste</span><span class="hidden sm:inline">Clipboard</span></button><button class="w-9 h-9 rounded-full bg-surface-container-low text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-all flex items-center justify-center"><span class="material-symbols-outlined text-[20px]">settings</span></button><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></div></header><main class="w-full pt-16 bg-surface flex-1"><div class="flex flex-col w-full">
+<!-- Top Context Header Ribbon -->
+<section class="w-full px-space-xl pt-space-lg pb-space-sm flex flex-col md:flex-row md:items-center justify-between gap-space-md">
+<div class="flex flex-col gap-space-xs">
+
+<div class="flex items-baseline gap-space-md">
+<h1 class="font-headline-xl text-headline-xl text-on-surface tracking-tight">Watermark PDF</h1>
+
+</div>
+</div>
+<!-- Active Staged File Card -->
+<div class="flex items-center gap-space-md bg-surface-container-low px-space-md py-space-sm rounded-DEFAULT shadow-md">
+<div class="w-10 h-10 rounded-DEFAULT bg-secondary-container text-on-secondary flex items-center justify-center shadow-[inset_0_2px_4px_rgba(255,255,255,0.4),inset_0_-2px_4px_rgba(0,0,0,0.15)]">
+<span class="material-symbols-outlined text-[22px]">picture_as_pdf</span>
+</div>
+<div class="flex flex-col min-w-0 pr-space-xs">
+<span class="font-label-lg text-label-lg font-bold text-on-surface truncate max-w-[210px]">Pitch_Deck_Q3_Confidential.pdf</span>
+<div class="flex items-center gap-space-xs text-on-surface-variant font-body-sm text-body-sm">
+<span class="font-semibold text-primary">14 Pages</span>
+<span class="">•</span>
+<span class="">5.2 MB</span>
+<span class="inline-flex items-center text-tertiary ml-1 font-label-sm text-label-sm">
+<span class="w-1.5 h-1.5 rounded-full bg-tertiary mr-1"></span>In Memory
+          </span>
+</div>
+</div>
+<button class="w-8 h-8 rounded-full bg-surface-container hover:bg-surface-container-high text-on-surface-variant transition-all flex items-center justify-center" title="Replace File">
+<span class="material-symbols-outlined text-[18px]">sync</span>
+</button>
+</div>
+</section>
+<!-- Workspace Desk Area -->
+<div class="w-full px-space-xl pb-space-xl pt-space-xs grid grid-cols-1 xl:grid-cols-12 gap-space-lg items-start">
+<!-- MAIN STAGE (Center & Left Preview Stage) -->
+<main class="xl:col-span-8 flex flex-col gap-space-md">
+<!-- Viewport Board with Clay Inset Well -->
+<div class="relative w-full rounded-lg bg-surface-container-low p-space-lg shadow-xl overflow-hidden flex flex-col items-center">
+<!-- Floating Canvas Toolbar -->
+<div class="w-full flex items-center justify-between mb-space-md pb-space-xs">
+<div class="flex items-center gap-space-xs bg-surface-container px-space-sm py-1 rounded-full shadow-sm">
+<button class="w-7 h-7 rounded-full bg-surface text-on-surface flex items-center justify-center hover:bg-surface-container-lowest transition-all" title="Fit to width">
+<span class="material-symbols-outlined text-[16px]">fit_screen</span>
+</button>
+<button class="w-7 h-7 rounded-full text-on-surface-variant flex items-center justify-center hover:bg-surface-container-high transition-all" title="Zoom In">
+<span class="material-symbols-outlined text-[16px]">zoom_in</span>
+</button>
+<span class="font-label-sm text-label-sm text-on-surface-variant px-1 font-mono">100%</span>
+<button class="w-7 h-7 rounded-full text-on-surface-variant flex items-center justify-center hover:bg-surface-container-high transition-all" title="Zoom Out">
+<span class="material-symbols-outlined text-[16px]">zoom_out</span>
+</button>
+<button class="w-7 h-7 rounded-full text-on-surface-variant flex items-center justify-center hover:bg-surface-container-high transition-all" title="Rotate View">
+<span class="material-symbols-outlined text-[16px]">crop_rotate</span>
+</button>
+</div>
+<!-- Proof Mode Sticky Note Pill -->
+
+<div class="flex items-center gap-space-xs font-label-sm text-label-sm text-on-surface-variant">
+<span class="">Page <strong class="text-on-surface">3</strong> of 14</span>
+<div class="flex gap-1 ml-1">
+<button class="w-6 h-6 rounded-full bg-surface-container hover:bg-surface flex items-center justify-center">
+<span class="material-symbols-outlined text-[14px]">arrow_back</span>
+</button>
+<button class="w-6 h-6 rounded-full bg-surface-container hover:bg-surface flex items-center justify-center">
+<span class="material-symbols-outlined text-[14px]">arrow_forward</span>
+</button>
+</div>
+</div>
+</div>
+<!-- The PDF Page Document Surface (16:9 Presentation Format) -->
+<div class="relative w-full max-w-[760px] aspect-[16/10] bg-surface-container-lowest rounded-DEFAULT shadow-2xl p-space-lg flex flex-col justify-between overflow-hidden select-none cursor-crosshair">
+<!-- Mock Pitch Deck Content Layers -->
+<div class="flex items-center justify-between pb-space-sm">
+<div class="flex items-center gap-space-xs">
+<div class="w-7 h-7 rounded bg-primary text-on-primary flex items-center justify-center font-bold font-headline-sm text-[13px]">FL</div>
+<span class="font-label-md text-label-md font-bold text-on-surface tracking-tight">Project Aurora • Series B Pitch</span>
+</div>
+<div class="flex items-center gap-space-sm text-on-surface-variant font-body-sm text-body-sm">
+<span class="">Section 03: Market Traction</span>
+<span class="w-2 h-2 rounded-full bg-outline-variant"></span>
+<span class="font-mono text-outline">P. 03</span>
+</div>
+</div>
+<!-- Slide Content Mockup Body -->
+<div class="grid grid-cols-12 gap-space-md my-auto items-center">
+<div class="col-span-7 flex flex-col gap-space-xs">
+<span class="font-label-sm text-label-sm text-primary font-bold uppercase tracking-wider">Gross Annual Run-Rate</span>
+<div class="font-headline-lg text-headline-lg font-bold text-on-surface leading-tight">$18.4M ARR (+184% YoY)</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant max-w-sm mt-1">
+                Proprietary edge-based processing pipeline powering over 240,000 corporate documents per day without external cloud ingress.
+              </p>
+<!-- Mini Mock Trend Visualizer -->
+<div class="flex items-end gap-2 h-14 mt-space-sm pt-2">
+<div class="w-6 bg-surface-container-high rounded-t h-4"></div>
+<div class="w-6 bg-surface-container-high rounded-t h-6"></div>
+<div class="w-6 bg-surface-container-high rounded-t h-9"></div>
+<div class="w-6 bg-primary-fixed-dim rounded-t h-11"></div>
+<div class="w-6 bg-primary-container rounded-t h-14"></div>
+<span class="font-label-sm text-label-sm text-outline font-mono ml-2 mb-1">Q1-Q4 Scale Vector</span>
+</div>
+</div>
+<!-- Slide Image Mock Card -->
+<div class="col-span-5 h-36 rounded-DEFAULT bg-surface-container overflow-hidden shadow-inner flex flex-col justify-end p-space-xs relative">
+<img class="absolute inset-0 w-full h-full object-cover opacity-80" data-alt="A modern enterprise analytics workstation display glowing warmly with tactile clay document stacks and minimal clean line graphs in sky blue and amber on a soft cream wooden desk." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBY5o4HHgROJ7K_1PtiSZW-3-g9cmn1qGDt-SUQncIu8H4U6ORV9kJh7IEpQB6n17BnyIbOysdgUSlq-N_zfOHhg_9UXgwNRq9TrGLr71Tprajr5PDKYSKmUdAOSkUxvgKTTFpyuNtus_HIVLp5BQqgvXBn2LjCiJEMmudScA1yZUK33leNmUmWHQFBG32-BtQhmZ1KwumkaRw9lTkmKaWHh7s_kCUjtG9DHEY5MjAkS8bq6hcAASx2">
+<div class="relative z-10 bg-surface/90 backdrop-blur-md rounded px-2 py-1 flex items-center justify-between">
+<span class="font-label-sm text-label-sm font-semibold text-on-surface">Audit Trail Node</span>
+<span class="font-label-sm text-label-sm text-tertiary font-mono">100% Verified</span>
+</div>
+</div>
+</div>
+<!-- Slide Footer -->
+<div class="flex items-center justify-between pt-space-xs text-on-surface-variant font-label-sm text-label-sm">
+<span class="">Strictly Private • Board of Directors Distribution</span>
+<span class="">Ref: FL-2024-AUR</span>
+</div>
+<!-- ================= WATERMARK INTERACTIVE BOUNDING BOX ================= -->
+<div class="absolute inset-0 flex items-center justify-center pointer-events-none" id="watermark-box">
+<div class="relative pointer-events-auto cursor-move flex items-center justify-center p-6 select-none group" style="transform: rotate(-45deg);">
+<!-- Subtle Bounding Box Rect -->
+<div class="absolute inset-0 rounded-DEFAULT bg-primary/5 shadow-md"></div>
+<!-- 8 Anchor Control Handles -->
+<div class="absolute -top-1.5 -left-1.5 w-3.5 h-3.5 bg-surface-container-lowest rounded-full shadow-md"></div>
+<div class="absolute -top-1.5 left-1/2 -translate-x-1/2 w-3.5 h-3.5 bg-surface-container-lowest rounded-full shadow-md"></div>
+<div class="absolute -top-1.5 -right-1.5 w-3.5 h-3.5 bg-surface-container-lowest rounded-full shadow-md"></div>
+<div class="absolute top-1/2 -left-1.5 -translate-y-1/2 w-3.5 h-3.5 bg-surface-container-lowest rounded-full shadow-md"></div>
+<div class="absolute top-1/2 -right-1.5 -translate-y-1/2 w-3.5 h-3.5 bg-surface-container-lowest rounded-full shadow-md"></div>
+<div class="absolute -bottom-1.5 -left-1.5 w-3.5 h-3.5 bg-surface-container-lowest rounded-full shadow-md"></div>
+<div class="absolute -bottom-1.5 left-1/2 -translate-x-1/2 w-3.5 h-3.5 bg-surface-container-lowest rounded-full shadow-md"></div>
+<div class="absolute -bottom-1.5 -right-1.5 w-3.5 h-3.5 bg-surface-container-lowest rounded-full shadow-md"></div>
+<!-- Upper Rotation Leash and Dial Indicator -->
+<div class="absolute -top-11 left-1/2 -translate-x-1/2 flex flex-col items-center gap-1">
+<div class="w-6 h-6 rounded-full bg-primary text-on-primary shadow-md flex items-center justify-center cursor-grab active:cursor-grabbing hover:scale-110 transition-transform">
+<span class="material-symbols-outlined text-[14px]">rotate_right</span>
+</div>
+<div class="w-0.5 h-4 bg-primary/40"></div>
+</div>
+<!-- Live Angle Badge Tag -->
+
+<!-- THE ACTUAL WATERMARK TEXT STAMP -->
+<div class="font-display-lg font-extrabold tracking-widest text-center whitespace-nowrap uppercase text-error transition-all" id="watermark-rendered-text" style="opacity: 0.30; font-size: 38px; text-shadow: 0 1px 1px rgba(0,0,0,0.1);">
+                CONFIDENTIAL — DO NOT DISTRIBUTE
+              </div>
+</div>
+</div>
+<!-- ================= END WATERMARK OVERLAY ================= -->
+</div>
+<!-- Canvas Footer Status Micro-bar -->
+
+</div>
+<!-- PAGE STRIP TRAY / MULTI-PAGE SELECTOR -->
+<section class="w-full rounded-DEFAULT bg-surface-container-low p-space-md shadow-md flex flex-col gap-space-sm">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-space-sm">
+<span class="font-label-lg text-label-lg font-bold text-on-surface">Target Pages</span>
+<div class="inline-flex rounded-full bg-surface-container p-0.5 shadow-inner">
+<button class="px-space-sm py-1 rounded-full bg-surface text-on-surface font-label-sm text-label-sm font-semibold shadow-sm">All 14 Pages</button>
+<button class="px-space-sm py-1 rounded-full text-on-surface-variant hover:text-on-surface font-label-sm text-label-sm font-medium">Custom Range</button>
+</div>
+</div>
+<div class="flex items-center gap-space-xs">
+<span class="font-label-sm text-label-sm text-on-surface-variant">Quick Range:</span>
+<span class="px-2 py-0.5 rounded bg-surface-container font-mono font-label-sm text-label-sm text-on-surface">1-14</span>
+<button class="text-primary hover:underline font-label-sm text-label-sm font-semibold ml-2">Clear Selection</button>
+</div>
+</div>
+<!-- Thumbnails Horizontal Scroller -->
+<div class="w-full flex items-center gap-space-sm overflow-x-auto pb-1 pt-1">
+<!-- Thumb 1 -->
+<div class="flex-shrink-0 flex flex-col items-center gap-1 group cursor-pointer">
+<div class="relative w-20 h-14 rounded bg-surface-container-lowest shadow-sm group-hover:shadow-md transition-all flex flex-col justify-between p-1.5 overflow-hidden">
+<div class="w-8 h-1 bg-surface-container-high rounded"></div>
+<div class="w-12 h-1 bg-surface-container-high rounded"></div>
+<span class="absolute inset-0 flex items-center justify-center font-bold text-[8px] text-error/30 uppercase transform -rotate-45 pointer-events-none">CONFIDENTIAL</span>
+<div class="w-full flex justify-between items-center text-[7px] text-outline font-mono">
+<span class="">01</span>
+<span class="material-symbols-outlined text-primary text-[10px]">check_circle</span>
+</div>
+</div>
+<span class="font-label-sm text-label-sm text-on-surface-variant font-mono">P. 1</span>
+</div>
+<!-- Thumb 2 -->
+<div class="flex-shrink-0 flex flex-col items-center gap-1 group cursor-pointer">
+<div class="relative w-20 h-14 rounded bg-surface-container-lowest shadow-sm group-hover:shadow-md transition-all flex flex-col justify-between p-1.5 overflow-hidden">
+<div class="w-10 h-1 bg-surface-container-high rounded"></div>
+<div class="w-6 h-1 bg-surface-container-high rounded"></div>
+<span class="absolute inset-0 flex items-center justify-center font-bold text-[8px] text-error/30 uppercase transform -rotate-45 pointer-events-none">CONFIDENTIAL</span>
+<div class="w-full flex justify-between items-center text-[7px] text-outline font-mono">
+<span class="">02</span>
+<span class="material-symbols-outlined text-primary text-[10px]">check_circle</span>
+</div>
+</div>
+<span class="font-label-sm text-label-sm text-on-surface-variant font-mono">P. 2</span>
+</div>
+<!-- Thumb 3 (Active Viewing) -->
+<div class="flex-shrink-0 flex flex-col items-center gap-1 cursor-pointer">
+<div class="relative w-20 h-14 rounded bg-surface-container-lowest shadow-md flex flex-col justify-between p-1.5 overflow-hidden">
+<div class="w-11 h-1.5 bg-primary/20 rounded"></div>
+<div class="w-7 h-1 bg-surface-container-high rounded"></div>
+<span class="absolute inset-0 flex items-center justify-center font-bold text-[8px] text-error/40 uppercase transform -rotate-45 pointer-events-none">CONFIDENTIAL</span>
+<div class="w-full flex justify-between items-center text-[7px] text-on-surface font-mono font-bold">
+<span class="text-primary">03 (Active)</span>
+<span class="material-symbols-outlined text-primary text-[10px]">check_circle</span>
+</div>
+</div>
+<span class="font-label-sm text-label-sm text-primary font-bold font-mono">P. 3</span>
+</div>
+<!-- Thumb 4 -->
+<div class="flex-shrink-0 flex flex-col items-center gap-1 group cursor-pointer">
+<div class="relative w-20 h-14 rounded bg-surface-container-lowest shadow-sm group-hover:shadow-md transition-all flex flex-col justify-between p-1.5 overflow-hidden">
+<div class="w-9 h-1 bg-surface-container-high rounded"></div>
+<div class="w-5 h-1 bg-surface-container-high rounded"></div>
+<span class="absolute inset-0 flex items-center justify-center font-bold text-[8px] text-error/30 uppercase transform -rotate-45 pointer-events-none">CONFIDENTIAL</span>
+<div class="w-full flex justify-between items-center text-[7px] text-outline font-mono">
+<span class="">04</span>
+<span class="material-symbols-outlined text-primary text-[10px]">check_circle</span>
+</div>
+</div>
+<span class="font-label-sm text-label-sm text-on-surface-variant font-mono">P. 4</span>
+</div>
+<!-- Thumb 5 -->
+<div class="flex-shrink-0 flex flex-col items-center gap-1 group cursor-pointer">
+<div class="relative w-20 h-14 rounded bg-surface-container-lowest shadow-sm group-hover:shadow-md transition-all flex flex-col justify-between p-1.5 overflow-hidden">
+<div class="w-10 h-1 bg-surface-container-high rounded"></div>
+<div class="w-8 h-1 bg-surface-container-high rounded"></div>
+<span class="absolute inset-0 flex items-center justify-center font-bold text-[8px] text-error/30 uppercase transform -rotate-45 pointer-events-none">CONFIDENTIAL</span>
+<div class="w-full flex justify-between items-center text-[7px] text-outline font-mono">
+<span class="">05</span>
+<span class="material-symbols-outlined text-primary text-[10px]">check_circle</span>
+</div>
+</div>
+<span class="font-label-sm text-label-sm text-on-surface-variant font-mono">P. 5</span>
+</div>
+<!-- Thumb 6 -->
+<div class="flex-shrink-0 flex flex-col items-center gap-1 group cursor-pointer">
+<div class="relative w-20 h-14 rounded bg-surface-container-lowest shadow-sm group-hover:shadow-md transition-all flex flex-col justify-between p-1.5 overflow-hidden">
+<div class="w-7 h-1 bg-surface-container-high rounded"></div>
+<div class="w-11 h-1 bg-surface-container-high rounded"></div>
+<span class="absolute inset-0 flex items-center justify-center font-bold text-[8px] text-error/30 uppercase transform -rotate-45 pointer-events-none">CONFIDENTIAL</span>
+<div class="w-full flex justify-between items-center text-[7px] text-outline font-mono">
+<span class="">06</span>
+<span class="material-symbols-outlined text-primary text-[10px]">check_circle</span>
+</div>
+</div>
+<span class="font-label-sm text-label-sm text-on-surface-variant font-mono">P. 6</span>
+</div>
+<!-- Rest of Pages Compressed Chip -->
+<div class="flex-shrink-0 flex flex-col items-center gap-1">
+<div class="w-20 h-14 rounded bg-surface-container shadow-inner flex flex-col items-center justify-center text-on-surface-variant hover:bg-surface-container-high transition-all cursor-pointer">
+<span class="font-headline-sm text-headline-sm font-bold leading-none">+8</span>
+<span class="font-label-sm text-label-sm text-outline mt-1 font-mono">Pages 7-14</span>
+</div>
+<span class="font-label-sm text-label-sm text-on-surface-variant font-mono">Batch</span>
+</div>
+</div>
+</section>
+</main>
+<!-- RIGHT CONTROL PANEL / STATION DECK -->
+<aside class="xl:col-span-4 flex flex-col gap-space-md">
+<div class="w-full rounded-lg bg-surface-container-low p-space-lg shadow-xl flex flex-col gap-space-md relative">
+<!-- Metal Clamp Accent Badge on Desk Card -->
+<div class="absolute -top-3 left-1/2 -translate-x-1/2 w-28 h-6 bg-gradient-to-b from-surface-variant via-surface-container-high to-surface-dim rounded-full shadow-md flex items-center justify-center">
+<div class="w-16 h-1 bg-outline-variant/60 rounded-full"></div>
+</div>
+<!-- Mode Switcher Tabs -->
+<div class="w-full grid grid-cols-2 p-1 bg-surface-container rounded-DEFAULT shadow-inner mt-2">
+<button class="py-space-xs px-space-sm rounded-DEFAULT bg-primary text-on-primary font-label-md text-label-md font-bold shadow-[0_4px_10px_rgba(0,101,145,0.3),inset_0_1px_2px_rgba(255,255,255,0.3)] flex items-center justify-center gap-1.5 transition-all" style="background-color: rgb(2, 59, 44); box-shadow: rgba(2, 59, 44, 0.35) 0px 4px 10px, rgba(255, 255, 255, 0.25) 0px 1px 2px inset;">
+<span class="material-symbols-outlined text-[16px]">title</span>
+<span class="">Text Watermark</span>
+</button>
+<button class="py-space-xs px-space-sm rounded-DEFAULT text-on-surface-variant hover:text-on-surface font-label-md text-label-md font-medium flex items-center justify-center gap-1.5 transition-all">
+<span class="material-symbols-outlined text-[16px]">image</span>
+<span class="">Logo / Graphic</span>
+</button>
+</div>
+<!-- Section 1: Watermark Content -->
+<div class="flex flex-col gap-space-xs">
+<div class="flex items-center justify-between">
+<label class="font-label-sm text-label-sm text-on-surface font-bold uppercase tracking-wider" for="input-wm-text">Watermark Inscription</label>
+
+</div>
+<div class="relative flex items-center">
+<input class="w-full px-space-md py- space-sm rounded-DEFAULT bg-surface text-on-surface font-label-lg text-label-lg font-semibold tracking-wide placeholder:text-outline shadow-inner focus:outline-none focus:ring-2 focus:ring-primary/40" id="input-wm-text" type="text" value="CONFIDENTIAL">
+<span class="material-symbols-outlined absolute right-3 text-secondary text-[20px]">security</span>
+</div>
+</div>
+<!-- Typography & Font Selector -->
+<div class="grid grid-cols-2 gap-space-sm">
+<div class="flex flex-col gap-space-xs">
+<label class="font-label-sm text-label-sm text-on-surface-variant font-bold uppercase tracking-wider">Typeface</label>
+<div class="relative">
+<select class="w-full appearance-none px-space-md py-space-xs rounded-DEFAULT bg-surface text-on-surface font-label-md text-label-md font-semibold shadow-inner focus:outline-none cursor-pointer">
+<option selected="">Bold Sans</option>
+<option>Editorial Serif</option>
+<option>Tech Monospace</option>
+<option>Impact Heavy</option>
+</select>
+<span class="material-symbols-outlined absolute right-2.5 top-1/2 -translate-y-1/2 text-on-surface-variant text-[18px] pointer-events-none">expand_more</span>
+</div>
+</div>
+<div class="flex flex-col gap-space-xs">
+<label class="font-label-sm text-label-sm text-on-surface-variant font-bold uppercase tracking-wider">Stamp Color</label>
+<div class="flex items-center gap-1 bg-surface p-1 rounded-DEFAULT shadow-inner justify-between">
+<button class="w-6 h-6 rounded-full bg-error ring-2 ring-error/30 shadow-sm" title="Red/Alert"></button>
+<button class="w-6 h-6 rounded-full bg-inverse-surface shadow-sm" title="Carbon Black"></button>
+<button class="w-6 h-6 rounded-full bg-primary shadow-sm" title="Navy Blue"></button>
+<button class="w-6 h-6 rounded-full bg-tertiary shadow-sm" title="Olive Ochre"></button>
+<button class="w-6 h-6 rounded-full bg-surface-container-highest flex items-center justify-center text-[10px] text-on-surface-variant" title="Custom Picker">
+<span class="material-symbols-outlined text-[13px]">palette</span>
+</button>
+</div>
+</div>
+</div>
+<!-- Font Size Slider -->
+<div class="flex flex-col gap-space-xs bg-surface-container px-space-md py-space-sm rounded-DEFAULT shadow-inner">
+<div class="flex items-center justify-between">
+<span class="font-label-sm text-label-sm text-on-surface-variant font-bold uppercase tracking-wider">Font Size</span>
+<span class="font-label-sm text-label-sm text-primary font-mono font-bold">54 pt</span>
+</div>
+<div class="flex items-center gap-space-sm">
+<span class="font-label-sm text-label-sm text-outline font-mono">18</span>
+<input class="w-full accent-primary cursor-pointer h-2 bg-surface-container-high rounded-lg appearance-none" max="96" min="18" type="range" value="54">
+<span class="font-label-sm text-label-sm text-outline font-mono">96</span>
+</div>
+</div>
+<!-- Section 2: Visual Properties (Opacity & Rotation) -->
+<div class="flex flex-col gap-space-sm pt-space-xs">
+<!-- Opacity Slider -->
+<div class="flex flex-col gap-space-xs">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-1 text-on-surface font-label-sm text-label-sm font-bold uppercase tracking-wider">
+<span class="material-symbols-outlined text-[16px] text-on-surface-variant">opacity</span>
+<span class="">Stamp Opacity</span>
+</div>
+<span class="font-label-sm text-label-sm text-secondary font-mono font-bold bg-secondary-fixed/50 px-2 py-0.5 rounded">30%</span>
+</div>
+<div class="flex items-center gap-space-sm">
+<span class="font-label-sm text-label-sm text-outline font-mono">5%</span>
+<input class="w-full accent-secondary cursor-pointer h-2 bg-surface-container rounded-lg appearance-none" max="100" min="5" type="range" value="30">
+<span class="font-label-sm text-label-sm text-outline font-mono">100%</span>
+</div>
+</div>
+<!-- Rotation Angle Dial & Presets -->
+<div class="flex flex-col gap-space-xs">
+<div class="flex items-center justify-between">
+<label class="font-label-sm text-label-sm text-on-surface-variant font-bold uppercase tracking-wider">Angle &amp; Orientation</label>
+<span class="font-label-sm text-label-sm text-on-surface font-mono">-45°</span>
+</div>
+<div class="grid grid-cols-3 gap-space-xs">
+<button class="py-space-xs px-space-xs rounded-DEFAULT bg-primary-container text-on-primary-container font-label-sm text-label-sm font-bold shadow-sm flex flex-col items-center gap-0.5">
+<span class="material-symbols-outlined text-[16px]">north_east</span>
+<span class="">-45° Diagonal</span>
+</button>
+<button class="py-space-xs px-space-xs rounded-DEFAULT bg-surface text-on-surface-variant hover:text-on-surface font-label-sm text-label-sm font-semibold shadow-inner flex flex-col items-center gap-0.5">
+<span class="material-symbols-outlined text-[16px]">east</span>
+<span class="">0° Horizontal</span>
+</button>
+<button class="py-space-xs px-space-xs rounded-DEFAULT bg-surface text-on-surface-variant hover:text-on-surface font-label-sm text-label-sm font-semibold shadow-inner flex flex-col items-center gap-0.5">
+<span class="material-symbols-outlined text-[16px]">north</span>
+<span class="">90° Vertical</span>
+</button>
+</div>
+</div>
+</div>
+<!-- Section 3: Layering & Grid Position -->
+<div class="grid grid-cols-12 gap-space-md pt-space-xs items-center">
+<!-- Layer Switch (Over vs Behind) -->
+<div class="col-span-7 flex flex-col gap-space-xs">
+<span class="font-label-sm text-label-sm text-on-surface-variant font-bold uppercase tracking-wider">Layer Depth</span>
+<div class="flex flex-col gap-1 bg-surface p-1 rounded-DEFAULT shadow-inner">
+<label class="flex items-center gap-2 p-1.5 rounded cursor-pointer hover:bg-surface-container">
+<input class="accent-primary" name="layer" type="radio">
+<span class="font-label-sm text-label-sm text-on-surface">Behind</span>
+</label>
+<label class="flex items-center gap-2 p-1.5 rounded bg-surface-container-high cursor-pointer">
+<input checked="" class="accent-primary" name="layer" type="radio">
+<span class="font-label-sm text-label-sm text-on-surface font-bold">Front</span>
+</label>
+</div>
+</div>
+<!-- 3x3 Placement Grid -->
+<div class="col-span-5 flex flex-col gap-space-xs">
+<span class="font-label-sm text-label-sm text-on-surface-variant font-bold uppercase tracking-wider text-center">Placement</span>
+<div class="grid grid-cols-3 gap-1 bg-surface-container p-1.5 rounded-DEFAULT shadow-inner aspect-square w-24 mx-auto items-center justify-items-center">
+<button class="w-5 h-5 rounded-sm bg-surface-container-lowest hover:bg-surface transition-all" title="Top Left"></button>
+<button class="w-5 h-5 rounded-sm bg-surface-container-lowest hover:bg-surface transition-all" title="Top Center"></button>
+<button class="w-5 h-5 rounded-sm bg-surface-container-lowest hover:bg-surface transition-all" title="Top Right"></button>
+<button class="w-5 h-5 rounded-sm bg-surface-container-lowest hover:bg-surface transition-all" title="Middle Left"></button>
+<button class="w-5 h-5 rounded-sm bg-primary text-on-primary shadow-sm flex items-center justify-center" title="Exact Center">
+<span class="w-1.5 h-1.5 bg-surface rounded-full"></span>
+</button>
+<button class="w-5 h-5 rounded-sm bg-surface-container-lowest hover:bg-surface transition-all" title="Middle Right"></button>
+<button class="w-5 h-5 rounded-sm bg-surface-container-lowest hover:bg-surface transition-all" title="Bottom Left"></button>
+<button class="w-5 h-5 rounded-sm bg-surface-container-lowest hover:bg-surface transition-all" title="Bottom Center"></button>
+<button class="w-5 h-5 rounded-sm bg-surface-container-lowest hover:bg-surface transition-all" title="Bottom Right"></button>
+</div>
+</div>
+</div>
+<!-- Repetition & Tiling Checkbox -->
+<div class="flex items-center justify-between p-space-sm rounded-DEFAULT bg-surface shadow-inner">
+<div class="flex items-center gap-space-xs">
+<input class="w-4 h-4 rounded accent-primary cursor-pointer" id="tile-pattern" type="checkbox">
+<label class="font-label-sm text-label-sm text-on-surface font-semibold cursor-pointer" for="tile-pattern">Tile repeated across whole page</label>
+</div>
+<span class="material-symbols-outlined text-outline text-[18px]">grid_goldenratio</span>
+</div>
+<!-- PRIMARY CLAY ACTION BUTTON -->
+<div class="flex flex-col gap-space-xs pt-space-xs">
+<button class="w-full min-h-[52px] px-space-lg rounded-full text-white font-label-lg text-label-lg font-bold active:translate-y-0.5 transition-all flex items-center justify-between group cursor-pointer" style="background-color: rgb(2, 59, 44); box-shadow: rgba(2, 59, 44, 0.4) 0px 10px 24px -4px, rgba(255, 255, 255, 0.25) 0px 1px 2px inset, rgba(0, 0, 0, 0.3) 0px -2px 4px inset;"><span class="flex items-center gap-space-sm"><span class="material-symbols-outlined text-[20px] text-white/90 transition-transform group-hover:scale-110">verified</span><span class="">Apply Watermark &amp; Download PDF</span></span><span class="material-symbols-outlined text-[20px] text-white/80 group-hover:translate-x-1 transition-transform">chevron_right</span></button>
+<!-- File processing tally badge -->
+
+</div>
+</div>
+<!-- Quick Desk Tool Preset Sticky Note -->
+
+</aside>
+</div>
+</div>
+<script>
+  // Simple interactive sync between input field and preview watermark stamp
+  const watermarkInput = document.getElementById('input-wm-text');
+  const watermarkText = document.getElementById('watermark-rendered-text');
+  
+  if (watermarkInput && watermarkText) {
+    watermarkInput.addEventListener('input', (e) => {
+      const val = e.target.value.trim();
+      watermarkText.textContent = val ? val + ' — DO NOT DISTRIBUTE' : 'CONFIDENTIAL';
+    });
+  }
+</script></main><footer class="w-full bg-surface-container-low py-space-md px-space-lg flex items-center justify-between text-body-sm font-body-sm text-on-surface-variant"><div class="flex items-center gap-space-sm"><span class="font-label-md text-on-surface">FileLab Studio</span><span class="">© 2024 Physical Desk Metaphor</span></div><div class="flex items-center gap-space-lg"><a class="hover:text-on-surface transition-colors" data-path="documentation" href="#">Format Engine Docs</a><a class="hover:text-on-surface transition-colors" data-path="privacy-guarantee" href="#">Client-Side Privacy</a><a class="hover:text-on-surface transition-colors" data-path="keyboard-shortcuts" href="#">Hotkeys</a></div></footer></div>
+
+
+
+
+
+</body></html>

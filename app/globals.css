@@ -1,0 +1,172 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: var(--font-inter), -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-handwriting: var(--font-caveat), "Caveat", cursive;
+  --font-serif: var(--font-playfair), "Playfair Display", Georgia, serif;
+
+  --color-brand-blue: #0284c7;
+  --color-brand-dark: #0f172a;
+}
+
+/* Desk Surface Background Texture & Drop Shadows */
+body {
+  background-color: #edebe6;
+  background-image: 
+    radial-gradient(circle at 50% 30%, #f7f6f2 0%, #ebe7df 60%, #ded9ce 100%),
+    radial-gradient(rgba(0, 0, 0, 0.02) 1px, transparent 0);
+  background-size: 100% 100%, 24px 24px;
+  background-attachment: fixed;
+  min-height: 100vh;
+  color: #1e293b;
+}
+
+/* Desk surface ambient lighting overlay */
+.desk-vignette {
+  background: radial-gradient(circle at 60% 40%, rgba(255, 255, 255, 0.6) 0%, rgba(0, 0, 0, 0.04) 70%, rgba(0, 0, 0, 0.12) 100%);
+  pointer-events: none;
+}
+
+/* 3D Soft Clay Claymorphism Styling */
+.clay-btn {
+  transition: transform 0.2s cubic-bezier(0.34, 1.56, 0.64, 1), box-shadow 0.2s ease;
+  cursor: pointer;
+  position: relative;
+  border: none !important;
+  outline: none !important;
+}
+.clay-btn:hover {
+  transform: translateY(-4px) scale(1.03);
+}
+.clay-btn:active {
+  transform: translateY(1px) scale(0.98);
+}
+
+/* Specific Clay Color Tokens */
+.clay-red {
+  background: linear-gradient(145deg, #ff6b7b, #f43f5e);
+  box-shadow: 0 12px 24px -6px rgba(244, 63, 94, 0.45), 
+              0 4px 10px rgba(0, 0, 0, 0.08),
+              inset 0 3px 5px rgba(255, 255, 255, 0.5), 
+              inset 0 -4px 6px rgba(190, 18, 60, 0.45);
+}
+
+.clay-green {
+  background: linear-gradient(145deg, #6ee7b7, #10b981);
+  box-shadow: 0 12px 24px -6px rgba(16, 185, 129, 0.45),
+              0 4px 10px rgba(0, 0, 0, 0.08),
+              inset 0 3px 5px rgba(255, 255, 255, 0.6), 
+              inset 0 -4px 6px rgba(4, 120, 87, 0.45);
+}
+
+.clay-blue {
+  background: linear-gradient(145deg, #7dd3fc, #38bdf8);
+  box-shadow: 0 12px 24px -6px rgba(56, 189, 248, 0.45),
+              0 4px 10px rgba(0, 0, 0, 0.08),
+              inset 0 3px 5px rgba(255, 255, 255, 0.7), 
+              inset 0 -4px 6px rgba(3, 105, 161, 0.4);
+}
+
+.clay-pink {
+  background: linear-gradient(145deg, #fbcfe8, #f472b6);
+  box-shadow: 0 12px 24px -6px rgba(244, 114, 182, 0.45),
+              0 4px 10px rgba(0, 0, 0, 0.08),
+              inset 0 3px 5px rgba(255, 255, 255, 0.7), 
+              inset 0 -4px 6px rgba(190, 24, 93, 0.35);
+}
+
+.clay-cyan {
+  background: linear-gradient(145deg, #a5f3fc, #22d3ee);
+  box-shadow: 0 12px 24px -6px rgba(34, 211, 238, 0.45),
+              0 4px 10px rgba(0, 0, 0, 0.08),
+              inset 0 3px 5px rgba(255, 255, 255, 0.7), 
+              inset 0 -4px 6px rgba(14, 116, 144, 0.35);
+}
+
+.clay-yellow {
+  background: linear-gradient(145deg, #fef08a, #facc15);
+  box-shadow: 0 12px 24px -6px rgba(234, 179, 8, 0.45),
+              0 4px 10px rgba(0, 0, 0, 0.08),
+              inset 0 3px 5px rgba(255, 255, 255, 0.8), 
+              inset 0 -4px 6px rgba(161, 98, 7, 0.35);
+}
+
+.clay-purple {
+  background: linear-gradient(145deg, #e9d5ff, #c084fc);
+  box-shadow: 0 12px 24px -6px rgba(192, 132, 252, 0.45),
+              0 4px 10px rgba(0, 0, 0, 0.08),
+              inset 0 3px 5px rgba(255, 255, 255, 0.75), 
+              inset 0 -4px 6px rgba(126, 34, 206, 0.35);
+}
+
+.clay-orange {
+  background: linear-gradient(145deg, #fff7ed, #ffedd5);
+  box-shadow: 0 12px 24px -6px rgba(251, 146, 60, 0.35),
+              0 4px 10px rgba(0, 0, 0, 0.08),
+              inset 0 3px 5px rgba(255, 255, 255, 0.95), 
+              inset 0 -4px 6px rgba(234, 88, 12, 0.25);
+}
+
+/* Central Big Circular Hub */
+.central-hub {
+  background: linear-gradient(160deg, #ffffff 0%, #f6f5f1 100%);
+  box-shadow: 
+    0 20px 38px -10px rgba(120, 110, 95, 0.22),
+    0 6px 14px -4px rgba(120, 110, 95, 0.15),
+    inset 0 2px 4px rgba(255, 255, 255, 0.9),
+    inset 0 -4px 8px rgba(0, 0, 0, 0.04);
+}
+
+/* Desk Accessories */
+.paper-shadow {
+  box-shadow: 
+    10px 18px 30px -10px rgba(60, 50, 40, 0.24),
+    0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+.sticky-note {
+  background: #fef08a;
+  box-shadow: 
+    6px 8px 16px -3px rgba(0, 0, 0, 0.18),
+    inset 0 -8px 12px rgba(234, 179, 8, 0.18);
+  transform: rotate(4deg);
+}
+
+.leather-pad {
+  background: #1e1f22;
+  box-shadow: 
+    inset 0 1px 2px rgba(255, 255, 255, 0.12),
+    inset 0 -2px 6px rgba(0, 0, 0, 0.6),
+    -12px -10px 28px rgba(0, 0, 0, 0.22);
+}
+
+.luxury-pen {
+  transform: rotate(-38deg);
+  box-shadow: 12px 14px 20px rgba(0, 0, 0, 0.35);
+}
+
+.font-handwriting {
+  font-family: var(--font-caveat), "Caveat", cursive;
+}
+
+.font-serif {
+  font-family: var(--font-playfair), "Playfair Display", Georgia, serif;
+}
+
+/* Hide scrollbar for Chrome, Safari, and modern browsers */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* Touch device active feedback */
+@media (hover: none) {
+  .clay-btn:active {
+    transform: scale(0.95);
+  }
+}

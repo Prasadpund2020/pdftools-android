@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <clipPath id="sq">
+      <rect x="24" y="24" width="464" height="464" rx="116"/>
+    </clipPath>
+  </defs>
+
+  <!-- Squircle background: deep pine green -->
+  <rect x="24" y="24" width="464" height="464" rx="116" fill="#063B2B"/>
+
+  <!--
+    ┌─────────────────────────────────────────────────────┐
+    │  GREEN ARROW – lower-right, pointing left           │
+    │  (drawn first so white arrow sits on top at tail)   │
+    └─────────────────────────────────────────────────────┘
+    Coordinates = white arrow polygon rotated 180° around (256,256)
+    i.e. (x,y) → (512-x, 512-y)
+  -->
+  <g clip-path="url(#sq)">
+    <!-- Green main face -->
+    <polygon
+      points="255,415 177,354 255,294 255,325 323,262 405,238 405,303 323,383 255,383"
+      fill="#0FD48A"/>
+    <!-- Dark green facet (fold shadow) -->
+    <polygon
+      points="255,383 323,383 323,262 255,325"
+      fill="#11B37C"/>
+  </g>
+
+  <!--
+    ┌─────────────────────────────────────────────────────┐
+    │  WHITE ARROW – upper-left, pointing right           │
+    │  (drawn last → on top in the overlapping tail area) │
+    └─────────────────────────────────────────────────────┘
+    9 outer vertices derived from pixel analysis of the reference icon.
+    The polygon forms: arm shaft (lower-left) + arrowhead (right).
+  -->
+  <g clip-path="url(#sq)">
+    <!-- White main face -->
+    <polygon
+      points="257,97 335,158 257,218 257,187 189,250 107,274 107,209 189,129 257,129"
+      fill="#FFFFFF"/>
+    <!-- Silver-gray facet (fold shadow on inner arm) -->
+    <polygon
+      points="257,129 189,129 189,250 257,187"
+      fill="#D8E4E8"/>
+  </g>
+</svg>

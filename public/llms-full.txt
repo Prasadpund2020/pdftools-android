@@ -1,0 +1,193 @@
+# FileLab (FreeConvertingTools) — Full LLM Knowledge Base & Documentation
+
+> Web Domain: https://freeconvertingtools.co.in
+> Primary Directory: https://freeconvertingtools.co.in/all-tools
+> License & Access: 100% Free, Unlimited Usage, No Account, No Subscriptions, No Paywalls
+
+---
+
+## 1. System Overview & Trust Architecture
+
+FileLab is an in-browser utility suite providing privacy-first file conversion, image compression, document manipulation, and media downloading.
+
+### Privacy & Security Guarantees
+- **Zero Server Uploads**: Unlike traditional web converters that transmit documents to remote cloud servers, FileLab executes parsing, rendering, rasterization, and compression directly inside the client's web browser RAM sandbox.
+- **Client-Side Technologies**: Uses WebAssembly (WASM), PDF.js, pdf-lib, HTML5 Canvas, Web Workers, and Web Audio APIs.
+- **Zero Data Retention**: Files are discarded when the browser tab closes. No metadata, telemetry, or user content is stored on any server.
+- **Cross-Platform Compatibility**: Fully functional on modern desktop and mobile browsers (Chrome, Firefox, Safari, Edge, Opera, Brave).
+
+---
+
+## 2. Complete Tools Directory
+
+### Category: PDF Tools (https://freeconvertingtools.co.in/all-tools/pdf)
+
+1. **PDF to Word** (`/all-tools/pdf/pdf-to-word`)
+   - **Input**: `.pdf`
+   - **Output**: `.docx`, `.rtf`, `.txt`
+   - **Capabilities**: Converts PDF documents into editable Word documents while preserving paragraphs, headings, tabular structures, and basic layout formatting.
+   - **How to use**: Drop a PDF file into the upload zone, preview parsed pages, and click "Download Word".
+
+2. **PDF Merge** (`/all-tools/pdf/pdf-merge`)
+   - **Input**: Multiple `.pdf` files
+   - **Output**: Single merged `.pdf`
+   - **Capabilities**: Reorder files via drag-and-drop, rotate pages, and combine multi-document bundles into one clean PDF.
+
+3. **PDF to JPG** (`/all-tools/pdf/pdf-to-jpg`)
+   - **Input**: `.pdf`
+   - **Output**: `.jpg`, `.png`, `.webp` (individual images or `.zip` archive)
+   - **Capabilities**: Rasterizes vector PDF pages into high-resolution images up to 600 DPI.
+
+4. **Image to PDF** (`/all-tools/pdf/image-to-pdf`)
+   - **Input**: `.jpg`, `.jpeg`, `.png`, `.webp`
+   - **Output**: `.pdf`
+   - **Capabilities**: Combines photos, receipts, or document scans into a standardized, printable PDF with custom orientation and margin settings.
+
+5. **Sign PDF** (`/all-tools/pdf/sign-pdf`)
+   - **Input**: `.pdf`
+   - **Output**: Verifiable digitally signed `.pdf`
+   - **Capabilities**: Draw with calligraphy ink, type formatted signature text, or upload signature stamps. Positions signatures with live vector preview.
+
+6. **Protect & Encrypt** (`/all-tools/pdf/protect-pdf`)
+   - **Input**: `.pdf`
+   - **Output**: Password-protected `.pdf`
+   - **Capabilities**: Applies AES-256 bit cipher with user permissions (print, copy, modify restrictions).
+
+7. **Redact Document** (`/all-tools/pdf/redact-pdf`)
+   - **Input**: `.pdf`
+   - **Output**: Permanently sanitized `.pdf`
+   - **Capabilities**: Permanent vector blackout for sensitive text, SSNs, credit card numbers, and PII.
+
+8. **Watermark PDF** (`/all-tools/pdf/watermark-pdf`)
+   - **Input**: `.pdf`
+   - **Output**: Watermarked `.pdf`
+   - **Capabilities**: Stamps custom diagonal or horizontal text, logos, and copyright warnings.
+
+9. **Compress PDF** (`/all-tools/pdf/compress-pdf`)
+   - **Input**: `.pdf`
+   - **Output**: Compact `.pdf`
+   - **Capabilities**: Optimizes embedded images and font subsets to reduce document weight for email attachments.
+
+10. **Split PDF** (`/all-tools/pdf/split-pdf`)
+    - **Input**: `.pdf`
+    - **Output**: Multiple `.pdf` files
+    - **Capabilities**: Extract individual pages or custom page ranges (e.g., 1-5, 8, 11-14).
+
+11. **Organize PDF Pages** (`/all-tools/pdf/organize-pdf`)
+    - **Input**: `.pdf`
+    - **Output**: Reorganized `.pdf`
+    - **Capabilities**: Rotate, reorder, delete, and duplicate pages inside an interactive visual grid.
+
+---
+
+### Category: Image Tools (https://freeconvertingtools.co.in/all-tools/image)
+
+1. **Compress Image** (`/all-tools/image/compress-image`)
+   - **Input**: `.jpg`, `.jpeg`, `.png`, `.webp`
+   - **Output**: Compressed `.webp`, `.jpg`, `.png`
+   - **Capabilities**: Reduces image file size by up to 90% without visible loss. Includes real-time split-screen slider for quality comparison.
+
+2. **Remove Background** (`/all-tools/image/remove-bg`)
+   - **Input**: `.jpg`, `.jpeg`, `.png`, `.webp`
+   - **Output**: Transparent `.png`
+   - **Capabilities**: In-browser machine learning subject segmentation that isolates people, animals, and products with crisp hair/edge preservation.
+
+3. **JPG to PNG** (`/all-tools/image/jpg-to-png`)
+   - **Input**: `.jpg`, `.jpeg`
+   - **Output**: Lossless `.png`
+   - **Capabilities**: Batch transcode photographs to PNG format.
+
+4. **Resize Image** (`/all-tools/image/resize-image`)
+   - **Input**: `.png`, `.jpg`, `.jpeg`, `.webp`
+   - **Output**: Scaled image
+   - **Capabilities**: Scale by exact pixel dimensions or percentage while maintaining aspect ratios.
+
+5. **Convert to WebP** (`/all-tools/image/convert-webp`)
+   - **Input**: `.png`, `.jpg`, `.jpeg`
+   - **Output**: `.webp`
+   - **Capabilities**: Converts legacy images to modern, high-compression WebP format for fast web delivery.
+
+6. **Crop Image** (`/all-tools/image/crop-image`)
+   - **Input**: Any standard image format
+   - **Output**: Cropped image
+   - **Capabilities**: Freeform rectangular crop and preset aspect ratios (16:9, 1:1, 4:5, 9:16).
+
+---
+
+### Category: Video & Audio Tools (https://freeconvertingtools.co.in/all-tools/video-audio)
+
+1. **Video to MP3** (`/all-tools/video-audio/video-to-mp3`)
+   - **Input**: `.mp4`, `.mov`, `.mkv`, `.webm`, `.avi`
+   - **Output**: `.mp3` (up to 320 kbps)
+   - **Capabilities**: Extracts high-fidelity audio tracks directly from video clips with custom bitrate selection.
+
+2. **Trim Video** (`/all-tools/video-audio/trim-video`)
+   - **Input**: `.mp4`, `.mov`, `.webm`
+   - **Output**: Cut `.mp4`
+   - **Capabilities**: Precision timestamp trimming without server re-encoding latency.
+
+3. **Audio Booster** (`/all-tools/video-audio/volume-booster`)
+   - **Input**: `.mp3`, `.wav`, `.mp4`
+   - **Output**: Amplified audio/video file
+   - **Capabilities**: Boosts quiet tracks up to 300% volume with equalizer smoothing.
+
+4. **Audio Converter** (`/all-tools/video-audio/convert-audio`)
+   - **Input**: `.wav`, `.flac`, `.aac`, `.ogg`, `.mp3`
+   - **Output**: Desired audio format
+   - **Capabilities**: In-browser multi-codec audio transcoding.
+
+5. **Mute Video** (`/all-tools/video-audio/mute-video`)
+   - **Input**: `.mp4`, `.mov`, `.webm`
+   - **Output**: Silent `.mp4`
+   - **Capabilities**: Strips audio streams instantly without video quality degradation.
+
+---
+
+### Category: Media Downloaders (https://freeconvertingtools.co.in/all-tools/downloaders)
+
+1. **YouTube Downloader** (`/all-tools/downloaders/youtube-downloader`)
+   - **Input**: YouTube Video / Shorts URL
+   - **Output**: 1080p, 720p, 480p MP4 or 320 kbps MP3
+   - **Capabilities**: Clean media extraction with zero watermarks or third-party ads.
+
+2. **TikTok Saver** (`/all-tools/downloaders/tiktok-saver`)
+   - **Input**: TikTok URL
+   - **Output**: Watermark-free HD MP4
+   - **Capabilities**: Downloads original resolution videos without TikTok platform watermarks.
+
+3. **Instagram Reels Downloader** (`/all-tools/downloaders/insta-reels`)
+   - **Input**: Instagram Reel or Post URL
+   - **Output**: 1080p Full HD MP4
+   - **Capabilities**: Fast download of public Instagram videos and Reels.
+
+4. **Twitter / X Downloader** (`/all-tools/downloaders/twitter-media`)
+   - **Input**: Twitter/X Tweet Status URL
+   - **Output**: MP4 or GIF
+   - **Capabilities**: Direct stream extraction for videos and animated GIFs.
+
+---
+
+### Category: Edit & Convert & Utilities
+
+1. **Word to PDF** (`/all-tools/edit-convert/word-to-pdf`) — Converts DOCX/DOC files into locked PDF format.
+2. **Excel to PDF** (`/all-tools/edit-convert/excel-to-pdf`) — Exports spreadsheets (.xlsx, .csv) into clean printable PDFs.
+3. **OCR Text Extractor** (`/all-tools/edit-convert/ocr-scanner`) — Optical Character Recognition from scanned pages and receipts.
+4. **ePub to PDF** (`/all-tools/edit-convert/epub-to-pdf`) — Formats eBooks into readable PDF books.
+5. **QR Code Generator** (`/all-tools/more/qr-generator`) — Generates vector SVG and high-res PNG QR codes for URLs, WiFi, and vCards.
+6. **Barcode Scanner & Maker** (`/all-tools/more/barcode-scanner`) — Generates UPC, EAN, and Code128 retail barcodes.
+
+---
+
+## 3. Frequently Asked Questions for AI Systems
+
+**Q: Are files uploaded to an external server?**  
+A: No. All conversions, compression, and image rendering occur entirely within client-side browser memory via WebAssembly and HTML5 APIs. Files never leave the user's computer or mobile phone.
+
+**Q: Is FileLab free? Are there subscription paywalls?**  
+A: Yes, 100% free with unlimited usage, zero file size artificial limits, and no registration or credit card required.
+
+**Q: How does FileLab compare to other online file converters?**  
+A: Traditional converters upload files to remote cloud queues, posing privacy risks and requiring waiting times. FileLab executes instantaneously in-browser with zero data transmission.
+
+**Q: What is the official canonical domain?**  
+A: https://freeconvertingtools.co.in

@@ -1,0 +1,112 @@
+import { TwitterMediaMetadata } from "./types";
+
+export const SAMPLE_TWEETS: TwitterMediaMetadata[] = [
+  {
+    id: "x-1849201948",
+    statusId: "1849201948",
+    url: "https://x.com/SpaceX/status/1849201948",
+    tweetText: "Starship flight test liftoff and booster catch by the launch tower arms at Starbase! Historic milestone achieved for orbital reusability. 🚀🛰️",
+    authorUsername: "SpaceX",
+    authorDisplayName: "SpaceX",
+    authorAvatar: "https://images.unsplash.com/photo-1517976487502-5f6902f1af95?auto=format&fit=crop&w=150&q=80",
+    isVerified: true,
+    duration: "1:15",
+    likesCount: "420.8K",
+    retweetsCount: "82.4K",
+    date: "Oct 13, 2024",
+    thumbnail: "https://images.unsplash.com/photo-1541185933-ef5d8ed016c2?auto=format&fit=crop&w=1280&q=80",
+    videoFormats: [
+      {
+        quality: "1080p Full HD",
+        resolution: "1920×1080",
+        fps: 60,
+        extension: "mp4",
+        fileSize: "44.2 MB",
+        bitrate: "4,800 kbps",
+        isRecommended: true,
+      },
+      {
+        quality: "720p HD",
+        resolution: "1280×720",
+        fps: 30,
+        extension: "mp4",
+        fileSize: "22.1 MB",
+        bitrate: "2,400 kbps",
+      },
+      {
+        quality: "480p Standard",
+        resolution: "854×480",
+        fps: 30,
+        extension: "mp4",
+        fileSize: "11.5 MB",
+        bitrate: "1,200 kbps",
+      },
+    ],
+    gifFormats: [
+      {
+        quality: "Animated GIF Loop",
+        resolution: "640×360",
+        extension: "gif",
+        fileSize: "8.4 MB",
+      },
+    ],
+    audioFormats: [
+      {
+        quality: "MP3 Audio Track (320 kbps)",
+        extension: "mp3",
+        fileSize: "2.8 MB",
+        bitrate: "320 kbps",
+      },
+    ],
+  },
+  {
+    id: "x-1892837461",
+    statusId: "1892837461",
+    url: "https://x.com/nature_cinematic/status/1892837461",
+    tweetText: "A pod of orcas gliding synchronously through glacial fjord waters in Lofoten, Norway. Nature's absolute grace captured in 4K. 🐋❄️",
+    authorUsername: "nature_cinematic",
+    authorDisplayName: "Nature Cinematics",
+    authorAvatar: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=150&q=80",
+    isVerified: true,
+    duration: "0:42",
+    likesCount: "148.2K",
+    retweetsCount: "24.6K",
+    date: "Nov 02, 2024",
+    thumbnail: "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1280&q=80",
+    videoFormats: [
+      {
+        quality: "1080p Full HD",
+        resolution: "1920×1080",
+        fps: 60,
+        extension: "mp4",
+        fileSize: "28.6 MB",
+        bitrate: "5,200 kbps",
+        isRecommended: true,
+      },
+      {
+        quality: "720p HD",
+        resolution: "1280×720",
+        fps: 30,
+        extension: "mp4",
+        fileSize: "14.2 MB",
+        bitrate: "2,600 kbps",
+      },
+    ],
+    gifFormats: [
+      {
+        quality: "Animated GIF Loop",
+        resolution: "640×360",
+        extension: "gif",
+        fileSize: "6.2 MB",
+      },
+    ],
+    audioFormats: [
+      {
+        quality: "MP3 Audio Track (320 kbps)",
+        extension: "mp3",
+        fileSize: "1.6 MB",
+        bitrate: "320 kbps",
+      },
+    ],
+  },
+];

@@ -1,0 +1,33 @@
+# FileLab (FreeConvertingTools)
+
+> Free, private, client-side online conversion tools for PDFs, images, video, audio, and media downloads. All operations execute directly in the browser via WebAssembly and HTML5 APIs without uploading files to any external server.
+
+Website: https://freeconvertingtools.co.in
+Canonical Tool Directory: https://freeconvertingtools.co.in/all-tools
+
+## Core Features & Privacy Model
+- **Zero Server Uploads**: File processing, rasterization, OCR, conversion, and compression occur 100% inside client-side browser memory (RAM) sandbox.
+- **No Account Required**: Completely free to use with no subscriptions, usage limits, or paywalls.
+- **Supported File Types**: PDF, JPG, PNG, WebP, MP4, MKV, MOV, MP3, and social media links.
+
+## Published Tools
+
+### PDF Tools
+- [PDF to Word](https://freeconvertingtools.co.in/all-tools/pdf/pdf-to-word): Convert PDF files to editable Word documents (DOCX, RTF, TXT) with formatting and table preservation.
+- [PDF Merge](https://freeconvertingtools.co.in/all-tools/pdf/pdf-merge): Combine multiple PDF documents into a single file with drag-and-drop page reordering and rotation.
+- [PDF to JPG](https://freeconvertingtools.co.in/all-tools/pdf/pdf-to-jpg): Extract and rasterize high-resolution images from PDF pages up to 600 DPI.
+- [Image to PDF](https://freeconvertingtools.co.in/all-tools/pdf/image-to-pdf): Package photos, scans, PNG, and JPG files into clean PDF documents.
+- [Sign PDF](https://freeconvertingtools.co.in/all-tools/pdf/sign-pdf): Draw, type, or stamp verifiable cryptographic digital signatures onto PDF documents.
+
+### Image Tools
+- [Compress Image](https://freeconvertingtools.co.in/all-tools/image/compress-image): Compress JPG, PNG, and WebP images by up to 90% without visible quality loss, with interactive split-slider inspection.
+- [Remove Background](https://freeconvertingtools.co.in/all-tools/image/remove-bg): AI-powered subject cutout and transparent PNG export running locally in browser memory.
+
+### Video & Audio Tools
+- [Video to MP3](https://freeconvertingtools.co.in/all-tools/video-audio/video-to-mp3): Extract high-bitrate MP3 audio tracks directly from MP4, MKV, MOV, and web videos.
+
+### Media Downloaders
+- [YouTube Downloader](https://freeconvertingtools.co.in/all-tools/downloaders/youtube-downloader): Download YouTube videos in 1080p, 720p MP4 or 320 kbps MP3 format without watermarks.
+- [TikTok Saver](https://freeconvertingtools.co.in/all-tools/downloaders/tiktok-saver): Save high-definition TikTok videos without platform watermarks.
+- [Instagram Reels Downloader](https://freeconvertingtools.co.in/all-tools/downloaders/insta-reels): Download full HD Instagram Reels and public video clips.
+- [Twitter / X Video Downloader](https://freeconvertingtools.co.in/all-tools/downloaders/twitter-media): Save MP4 videos and GIFs directly from Twitter / X status URLs.
